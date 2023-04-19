@@ -1,0 +1,69 @@
+html><head><style>html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  /*
+   * Table stuff
+   */
+  
+  .table-container {
+    width: max-content;
+    min-width: 100%;
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .scroll-container {
+    overflow-y: auto;
+    overflow-x: none;
+    max-height: 14rem;
+    border: 1px solid #3E3E40;
+  }
+  
+  table {
+    font-family: monospace;
+    white-space: nowrap;
+    padding: 0.625rem;
+    width: 100%;
+    overflow-x: none;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 0.25rem;
+    background-color: transparent;
+  }
+  
+  tr {
+    height: 1.875rem;
+    font-size: 0.8125rem;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #E9EAEA;
+  }
+  
+  tr:nth-child(even),
+  th {
+    background-color: #FFFFFF;
+  }
+  
+  /*
+   * Chart stuff
+   */
+  
+  svg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+  </style></head><body><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Adj Close</th><th>Volume</th></tr><tr><td>0</td><td>2017-01-01</td><td>124.959999</td><td>143.46000700000002</td><td>124.309998</td><td>140.71000700000002</td><td>140.71000700000002</td><td>181772200</td></tr><tr><td>1</td><td>2017-02-01</td><td>141.199997</td><td>145.949997</td><td>139.050003</td><td>142.130005</td><td>142.130005</td><td>91432000</td></tr><tr><td>2</td><td>2017-03-01</td><td>142.83999599999999</td><td>148.28999299999998</td><td>138.259995</td><td>147.809998</td><td>147.809998</td><td>110692700</td></tr><tr><td>3</td><td>2017-04-01</td><td>146.699997</td><td>153.520004</td><td>138.66000400000001</td><td>152.199997</td><td>152.199997</td><td>149769200</td></tr><tr><td>4</td><td>2017-05-01</td><td>151.91000400000001</td><td>164.75</td><td>151.610001</td><td>163.070007</td><td>163.070007</td><td>116795800</td></tr></table></div></div><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Adj Close</th><th>Volume</th></tr><tr><td>0</td><td>2017-01-01</td><td>19872.859375</td><td>20125.580078</td><td>19677.939453</td><td>19864.089844</td><td>19864.089844</td><td>6482450000</td></tr><tr><td>1</td><td>2017-02-01</td><td>19923.810547</td><td>20851.330078</td><td>19831.089844</td><td>20812.240234</td><td>20812.240234</td><td>6185580000</td></tr><tr><td>2</td><td>2017-03-01</td><td>20957.289063</td><td>21169.109375</td><td>20412.800781</td><td>20663.220703</td><td>20663.220703</td><td>6941970000</td></tr><tr><td>3</td><td>2017-04-01</td><td>20665.169922</td><td>21070.900391</td><td>20379.550781</td><td>20940.509766</td><td>20940.509766</td><td>5392630000</td></tr><tr><td>4</td><td>2017-05-01</td><td>20962.730469</td><td>21112.320313</td><td>20553.449219</td><td>21008.650391</td><td>21008.650391</td><td>6613570000</td></tr></table></div></div><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Adj Close</th><th>Volume</th><th>Quarter</th></tr><tr><td>0</td><td>2017-01-03</td><td>124.959999</td><td>128.190002</td><td>124.309998</td><td>127.489998</td><td>127.489998</td><td>9437900</td><td>Q1</td></tr><tr><td>1</td><td>2017-01-04</td><td>127.489998</td><td>130.169998</td><td>126.550003</td><td>129.41000400000001</td><td>129.41000400000001</td><td>7843600</td><td>Q1</td></tr><tr><td>2</td><td>2017-01-05</td><td>129.220001</td><td>132.75</td><td>128.899994</td><td>131.809998</td><td>131.809998</td><td>10185500</td><td>Q1</td></tr><tr><td>3</td><td>2017-01-06</td><td>132.080002</td><td>133.880005</td><td>129.809998</td><td>131.070007</td><td>131.070007</td><td>10657900</td><td>Q1</td></tr><tr><td>4</td><td>2017-01-09</td><td>131.479996</td><td>131.990005</td><td>129.889999</td><td>130.949997</td><td>130.949997</td><td>5766900</td><td>Q1</td></tr></table></div></div><div class="table-container"><div class="scroll-container"><table><tr><th></th><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>Price</th><th>Volume</th></tr><tr><td>0</td><td>2017-01-01</td><td>124.959999</td><td>143.46000700000002</td><td>124.309998</td><td>140.71000700000002</td><td>140.71000700000002</td><td>181772200</td></tr><tr><td>1</td><td>2017-02-01</td><td>141.199997</td><td>145.949997</td><td>139.050003</td><td>142.130005</td><td>142.130005</td><td>91432000</td></tr><tr><td>2</td><td>2017-03-01</td><td>142.83999599999999</td><td>148.28999299999998</td><td>138.259995</td><td>147.809998</td><td>147.809998</td><td>110692700</td></tr><tr><td>3</td><td>2017-04-01</td><td>146.699997</td><td>153.520004</td><td>138.66000400000001</td><td>152.199997</td><td>152.199997</td><td>149769200</td></tr><tr><td>4</td><td>2017-05-01</td><td>151.91000400000001</td><td>164.75</td><td>151.610001</td><td>163.070007</td><td>163.070007</td><td>116795800</td></tr></table></div></div></body></html>
