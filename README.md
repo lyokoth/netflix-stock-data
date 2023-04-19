@@ -4,4 +4,4 @@
 
 TODO: Create powerpoint slides
 
-redo html with embeded ppt. presentation
+redo html with embeded ppt. presentation or embed in website
